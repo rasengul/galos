@@ -71,7 +71,8 @@ ventana.title("galos premiun")
 #crear boton
 boton = tk.Button(ventana,text="haz click",command=imprimir_mensaje)
 boton.pack()
-#cre
+#crear una etiqueta
+etiqueta = tk.Label(ventana,text="hola mundo desde el mundo")
 #mostrar ventana
 ventana.mainloop()
 sleep = 5
