@@ -72,10 +72,13 @@ ventana.title("galos premiun")
 boton = tk.Button(ventana,text="haz click",command=imprimir_mensaje)
 boton.pack()
 #crear una etiqueta
-etiqueta = tk.Label(ventana,text="hola mundo desde el mundo")
-etiqueta.pack()
-
+#etiqueta = tk.Label(ventana,text="hola mundo desde el mundo")
+#etiqueta.pack()
+entrada= tk.Entry(ventana)
+entrada.pack()
 #mostrar ventana
 ventana.mainloop()
 sleep = 5
 print("yipi =)")
+sleep = 5
+print("la ceboja con la ia es mucho mas facil de programar")
