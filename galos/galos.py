@@ -73,6 +73,8 @@ boton = tk.Button(ventana,text="haz click",command=imprimir_mensaje)
 boton.pack()
 #crear una etiqueta
 etiqueta = tk.Label(ventana,text="hola mundo desde el mundo")
+etiqueta.pack()
+
 #mostrar ventana
 ventana.mainloop()
 sleep = 5
