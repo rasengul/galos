@@ -68,15 +68,23 @@ def ya_me_estoy_aburriendo():
 # crea ventana 
 ventana =tk.Tk()
 ventana.title("galos premiun")
+
 #crear boton
+
 boton = tk.Button(ventana,text="haz click",command=imprimir_mensaje)
 boton.pack()
+
+boton2 =tk.Button(ventana,text="oki",command=ya_me_estoy_aburriendo)
+boton2.pack()
 #crear una etiqueta
 #etiqueta = tk.Label(ventana,text="hola mundo desde el mundo")
 #etiqueta.pack()
+
 entrada= tk.Entry(ventana)
 entrada.pack()
+
 #mostrar ventana
+
 ventana.mainloop()
 sleep = 5
 print("yipi =)")
