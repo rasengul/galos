@@ -4,7 +4,7 @@ from time import sleep
 from turtle import delay
 print ("No bore lo de arriba profe")
 # osea que deyal es mas para la robotica mientras el sleep es para la programacion
-
+#esta parte es de las operaciones basicas de python
 print ("hola mundo")
 caja = 9
 caja2 = 3
@@ -41,14 +41,14 @@ print (" crees esto acabo jeje no")
 sleep = 5
 # aaaaa me esta gustando esto
 print ("recuerda el ultimo rie mejor")
-
+#esta es la parte de las funciones matematicas
 def resta(num_1,num_2):
     return num_1 - num_2
 
 print(resta(num_1=5,num_2=8))
+sleep= 3
 
-
-
+print ("ahora es mi parte personal")
 sleep = 60
 
 
